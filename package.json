@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -12,12 +12,14 @@
   "dependencies": {
     "@prisma/client": "^5.10.2",
     "nuxt": "^3.10.3",
+    "primevue": "^3.49.1",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
+    "nuxt-primevue": "^0.3.1",
     "prisma": "^5.10.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
